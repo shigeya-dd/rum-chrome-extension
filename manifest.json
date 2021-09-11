@@ -1,0 +1,19 @@
+{
+  "name": "RUM Demo",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "Inject RUM snippet",
+  "icons": {
+    "64": "rum_icon.png"
+  },
+  "content_scripts": [{
+    "matches": ["*://*.wikipedia.org/*"],
+    "js": [
+      "datadog-rum-v3.js",
+      "content.js"
+    ]
+  }],
+  "background": {
+    "scripts": ["hot-reload.js"]
+  }
+}
