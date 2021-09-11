@@ -1,8 +1,9 @@
-# Chrome extension for RUM demo
+# Chrome extension for Datadog RUM demo
 
 ## What is this?
-- Chrome extension to inject JavaScript snipet for RUM.
-- You can demo RUM with the customer's web site.
+- Chrome extension for single function to inject JavaScript snipet for Datadog RUM.
+- You can demo/trial Datadog RUM with any live web sites.
+- Please check the [document](https://docs.datadoghq.com/real_user_monitoring/) for Datadog RUM.
 
 ## How to setup
 - `contents.js`
@@ -19,7 +20,7 @@
 - Download Datadog RUM javascript file
   - You can use `rum_download.sh` file.
 - Load extension to your Chrome
-  - Open extentions page. [chrome://extensions](chrome://extensions)
+  - Open extentions page. `chrome://extensions`
   - Turn on _Developer mode_ switch.
   - Click _Load unpacked_ button and load this folder.
   - _RUM Demo_ will appear in the extensions page and the extensions menu.
