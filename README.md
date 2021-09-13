@@ -6,6 +6,7 @@
 - Please check the [document](https://docs.datadoghq.com/real_user_monitoring/) for Datadog RUM.
 
 ## How to setup
+- Clone or download this repository to your PC.
 - `contents.js`
   - `applicationId`: Your applicaton ID
   - `clientToken`: Your client token
