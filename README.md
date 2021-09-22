@@ -27,3 +27,10 @@
   - _RUM Demo_ will appear in the extensions page and the extensions menu.
 - When you modified files in this folder, they will be reloaded in Chrome automatically.
   - It's done by hot-reload.js. [Author's repo](https://github.com/xpl/crx-hotreload)
+
+- Options: You can also set datadog tags from options page.
+  - Pin it on extension bar
+  - ![pin](https://a.cl.ly/12uvmjJQ)
+  - Right click the icon and click `option` to open the option windows
+  - ![options](https://a.cl.ly/JruxYZoj)
+  - ![options page](https://a.cl.ly/12uvmjz6)
