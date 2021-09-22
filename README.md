@@ -29,8 +29,8 @@
   - It's done by hot-reload.js. [Author's repo](https://github.com/xpl/crx-hotreload)
 
 - Options: You can also set datadog tags from options page.
-  - Pin it on extension bar
-  - ![pin](https://a.cl.ly/12uvmjJQ)
-  - Right click the icon and click `option` to open the option windows
-  - ![options](https://a.cl.ly/JruxYZoj)
-  - ![options page](https://a.cl.ly/12uvmjz6)
+  - Pin it on extension bar  
+  ![pin](https://p-qkfgo2.t2.n0.cdn.getcloudapp.com/items/12uvmjJQ/2751a271-24b0-4636-a3f2-3c0d2ac91b86.jpg?v=5afd8b46c5b1eceafc64f145c94ce6cc)
+  - Right click the icon and click `option` to open the option windows 
+  ![options](https://p-qkfgo2.t2.n0.cdn.getcloudapp.com/items/JruxYZoj/a03c09d3-24ce-4326-88e0-d46560ec5c38.jpg?v=aed64f22c7e534e933a096e5734b0f8a) 
+  ![options page](https://p-qkfgo2.t2.n0.cdn.getcloudapp.com/items/12uvmjz6/8c9690d9-c4be-4cf6-809a-e21dd8a04bc0.jpg?v=687f52aec612eb6c47c91683335fe230)
