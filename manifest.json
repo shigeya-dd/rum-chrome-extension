@@ -1,8 +1,12 @@
 {
   "name": "RUM Demo",
-  "version": "1.0",
+  "version": "1.1",
   "manifest_version": 2,
   "description": "Inject RUM snippet",
+  "options_ui": {
+    "page": "options.html",
+    "open_in_tab": false
+  },
   "icons": {
     "64": "rum_icon.png"
   },
@@ -15,5 +19,14 @@
   }],
   "background": {
     "scripts": ["hot-reload.js"]
+  },
+  "permissions":
+  [
+    "storage"
+  ],
+  "browser_action":
+  {
+    "default_icon": "rum_icon.png",
+    "default_title": "This is a datadog rum extension"
   }
 }
