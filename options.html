@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head><title>RUM Demo Extension Options</title></head>
+<body>
+<table><tr><td>Applicaltion ID: </td><td>
+<input type="text" id="appid" size=37/></td>
+</tr>
+<tr><td>Client Token: </td><td>
+<input type="text" id="clienttoken" size=37/></td>
+</tr>
+<tr><td>Site: </td><td>
+    <input type="text" id="site" value="datadoghq.com" /></td>
+</tr>
+<tr><td>Service: </td><td>
+    <input type="text" id="service" value="rumdemo" /></td>
+    </tr>
+    <tr><td>Env: </td><td>
+        <input type="text" id="env" value="demo" /></td>
+        </tr>
+        <tr><td>Version: </td><td>
+            <input type="text" id="version" value="1.0.0" /></td>
+            </tr>
+<tr></tr>
+</table>
+<div id="status"></div>
+<button id="save">Save</button>
+<button id="clear">Clear</button>
+
+<script src="options.js"></script>
+</body>
+</html>
