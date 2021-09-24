@@ -1,5 +1,7 @@
 # Chrome extension for Datadog RUM demo
 
+### I'm going to keep the previous menuless extension in another repository [here](https://github.com/shigeya-dd/rum-chrome-extension-minimal) as the minimalist version.
+
 ## What is this?
 - Chrome extension for single function to inject JavaScript snipet for Datadog RUM.
 - You can demo/trial Datadog RUM with any live web sites.
