@@ -43,5 +43,10 @@ window.DD_RUM && window.DD_RUM.setUser({
     email: 'john.doe@example.com',
     membership: 'gold'
 });
+
+// Uncomment the following two lines to enable Session Replay
+// document.body.setAttribute("data-dd-privacy", "mask-user-input");
+// window.DD_RUM.startSessionReplayRecording();
+
 }
 
