@@ -45,20 +45,21 @@ chrome.tabs.onUpdated.addListener(function(tabId, changeInfo, tab){
         },function(items){
         //console.log("appid is:" + items.appid + " and clienttoken is: " + items.clitoken);
         match_reg=items.match;
+        console.log(match_reg);
+        if (tab.url.match(match_reg)){
+            //v3
+            chrome.scripting.executeScript({
+                target: {tabId:tab.id},
+                // files: ["content.js","datadog-rum-v3.js"]
+                files: ["datadog-rum-v3.js","content.js"]
+            },() => { });
+            // for v2 source
+            // chrome.tabs.executeScript(tabId,{file:"content.js"},function(){
+            //     chrome.tabs.executeScript(tabId,{file:"datadog-rum-v3.js"});
+            // });
+        }
     });
-    console.log(match_reg);
-    if (tab.url.match(match_reg)){
-        //v3
-        chrome.scripting.executeScript({
-            target: {tabId:tab.id},
-            // files: ["content.js","datadog-rum-v3.js"]
-            files: ["datadog-rum-v3.js","content.js"]
-        },() => { });
-        // for v2 source
-        // chrome.tabs.executeScript(tabId,{file:"content.js"},function(){
-        //     chrome.tabs.executeScript(tabId,{file:"datadog-rum-v3.js"});
-        // });
-    }
+
 });
 
 // chrome.tabs.onUpdated.addListener((tab)=>{
