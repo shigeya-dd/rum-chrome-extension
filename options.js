@@ -1,5 +1,6 @@
 // Saves options to chrome.storage
 function save_options() {
+    var match=document.getElementById('match').value;
     var applicationid = document.getElementById('appid').value;
     var clienttoken = document.getElementById('clienttoken').value;
     var version=document.getElementById('version').value;
@@ -8,6 +9,7 @@ function save_options() {
     var env=document.getElementById('env').value;
 
     chrome.storage.sync.set({
+      match: match,
       appid: applicationid,
       clitoken: clienttoken,
       version: version,
@@ -29,6 +31,7 @@ function save_options() {
   function restore_options() {
     // Use default value color = 'red' and likesColor = true.
     chrome.storage.sync.get({
+      match: 'xxx',
       appid: 'xxx',
       clitoken: 'xxx',
       site: 'datadoghq.com',
@@ -36,6 +39,7 @@ function save_options() {
       version: '1.0.0',
       env: 'demo'
     }, function(items) {
+      document.getElementById('match').value = items.match;
       document.getElementById('appid').value = items.appid;
       document.getElementById('clienttoken').value = items.clitoken;
       document.getElementById('site').value = items.site;
@@ -45,6 +49,7 @@ function save_options() {
     });
   }
   function cleardata(){
+    document.getElementById('match').value='';
       document.getElementById('appid').value='';
       document.getElementById('clienttoken').value='';
       document.getElementById('env').value='demo';
