@@ -54,6 +54,7 @@ function ddruminit(){
         version: version,
         sampleRate: 100,
         trackInteractions: true,
+        silentMultipleInit: true,
         trackSessionAcrossSubdomains: true
     });
 
