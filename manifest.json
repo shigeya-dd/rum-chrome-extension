@@ -1,8 +1,8 @@
 {
-  "name": "RUM Demo",
+  "name": "Datadog RUM extension",
   "version": "1.1",
   "manifest_version": 3,
-  "description": "Inject RUM snippet",
+  "description": "Real User Monitoring",
   "options_ui": {
     "page": "options.html",
     "open_in_tab": false
@@ -21,7 +21,6 @@
   "permissions":
   [
     "storage",
-    "tabs",
     "activeTab",
     "scripting"
   ],
