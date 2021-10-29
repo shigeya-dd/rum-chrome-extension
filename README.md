@@ -16,8 +16,8 @@
   - Right click the icon and click `option` to open the option windows 
   ![options](https://p-qkfgo2.t2.n0.cdn.getcloudapp.com/items/JruxYZoj/a03c09d3-24ce-4326-88e0-d46560ec5c38.jpg?v=aed64f22c7e534e933a096e5734b0f8a) 
   ![options page](https://p-qkfgo2.t2.n0.cdn.getcloudapp.com/items/GGu4rWgJ/9b2810bd-96bc-49a3-be6a-3178e006ef6c.jpg?v=741a2cfed808372804cc7973f34ed218)
-  - Input the match regex to filter the website which you would like to track. 
-    eg: https://www.wikipedia.org 
+  - Input the match regex to filter the website which you would like to track.  
+    eg: https://www.wikipedia.org  
     reg : https://www\.wikipedia\.org/[^\s]*
 
 - Access the website (eg www.wikipedia.org)
