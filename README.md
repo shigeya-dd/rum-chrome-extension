@@ -20,5 +20,5 @@
     eg: https://www.wikipedia.org  
     reg : https://www\.wikipedia\.org/[^\s]*
 
-- Access the website (eg www.wikipedia.org)
+- Access the website (eg: www.wikipedia.org)
 - Check output in datadog rum
