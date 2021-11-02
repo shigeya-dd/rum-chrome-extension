@@ -1,7 +1,5 @@
 # Datadog Chrome extension 
 
-### I'm going to keep the previous menuless extension in another repository [here](https://github.com/shigeya-dd/rum-chrome-extension-minimal) as the minimalist version.
-
 ## What is this?
 - It is a chrome extension for user can have a quick view on Datadog RUM with simple implementation.
 - Please check the [document](https://docs.datadoghq.com/real_user_monitoring/) for Datadog RUM.
