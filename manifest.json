@@ -9,7 +9,7 @@
   "content_scripts": [{
     "matches": ["*://*.wikipedia.org/*"],
     "js": [
-      "datadog-rum-v3.js",
+      "datadog-rum-v4.js",
       "content.js"
     ]
   }],

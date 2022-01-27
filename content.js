@@ -8,7 +8,6 @@ window.DD_RUM && window.DD_RUM.init({
     sampleRate: 100,
     trackInteractions: true,
     trackSessionAcrossSubdomains: true,
-    allowedTracingOrigins: ["https://api.example.com", /https:\/\/.*\.my-api-domain\.com/], // Connect APM
     defaultPrivacyLevel: 'mask-user-input' // Session Replay
 });
 
